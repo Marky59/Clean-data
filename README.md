@@ -29,16 +29,16 @@ There shouldn't be any need to modify any user folders.
 The program will begin with the user's working directory and 
 create any needed folders from there.  The code used to create
 folders is
+```
+   if(! file.exists("coursera")){dir.create("coursera")}
+   setwd(file.path(getwd(),"coursera"))
 
-```if(! file.exists("coursera")){dir.create("coursera")}
-   setwd(file.path(getwd(),"coursera"))```
+   if(! file.exists("get and clean data")){dir.create("get and clean data")}
+   setwd(file.path(getwd(),"get and clean data"))
 
-```if(! file.exists("get and clean data")){dir.create("get and clean data")}
-   setwd(file.path(getwd(),"get and clean data"))```
-
-```if(! file.exists("project")){dir.create("project")}
-   setwd(file.path(getwd(),"project"))```
-
+   if(! file.exists("project")){dir.create("project")}
+   setwd(file.path(getwd(),"project"))
+```
 ## Help
 
 No help file has been provided.
