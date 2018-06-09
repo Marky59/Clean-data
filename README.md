@@ -47,7 +47,7 @@ The program will also download the raw data and extract the files.
 
 ## TIDY
 The subject and activity variables are added and their names set to 
-subject and activity to be descriptive and concise.
+"subject" and "activity" respectively to be descriptive and concise.
 
 All field names (variables) are set to lower case.
 
