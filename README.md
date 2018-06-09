@@ -14,8 +14,10 @@ later anaysis.
 
 The program was written on a Windows 7 machine using Rstudio Version 1.1.442
 and R version 3.4.4
+The program downloads the raw data so an internet connection is required.
 
-The package dplyr is required for the group_by function.
+The package dplyr is required for the group_by function.  This package
+will be installed automatically and the library loaded.
 
 ### Installing
 
@@ -39,6 +41,23 @@ folders is
    if(! file.exists("project")){dir.create("project")}
    setwd(file.path(getwd(),"project"))
 ```
+
+The program will install the package dplyr.
+The program will also download the raw data and extract the files.
+
+## TIDY
+The subject and activity variables are added and their names set to 
+subject and activity to be descriptive and concise.
+
+All field names (variables) are set to lower case.
+
+Dashes were removed from the field names.
+
+Parentheses were removed from the field names.
+
+In general, the field names were reasonably descriptive and so no other
+changes were made.
+
 ## Help
 
 No help file has been provided.
