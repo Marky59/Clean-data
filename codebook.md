@@ -20,3 +20,6 @@ st - vector of the indices of the train_test data with "std" in the variable nam
 both - data sets mn and st combined.
 train_test2 - data frame of the train_test data with column indices matching "both".
 avgs - The fields from train_test2 with "mean" in the variable name.
+
+Other variables used are from the raw data sets and their definitions
+can be found in the original data codebook.
