@@ -20,7 +20,7 @@ The package dplyr is required for the group_by function.
 ### Installing
 
 The program is found on github at
-https://github.com/Marky59/Get-and-clean-data-Project
+https://github.com/Marky59/Clean-data
 
 ### Executing program
 
@@ -45,7 +45,7 @@ No help file has been provided.
 
 ## Authors
 
-
+Just me
 
 ## Version History
 
